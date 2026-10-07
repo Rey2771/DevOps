@@ -1,1 +1,0 @@
-Get-Content "$PSScriptRoot\.env" | ForEach-Object { if ($_ -match '^\s*([^#=]+)=(.*)$') { Set-Item "env:$($matches[1].Trim())" $matches[2].Trim().Trim('"') } }

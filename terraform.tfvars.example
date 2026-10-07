@@ -1,8 +1,0 @@
-# A sample of how the values passed to the variables should look like
-aws_region          = "us-east-1"
-project_name        = "tf-webapp"
-environment         = "dev"          # dev, staging or prod
-vpc_cidr            = "10.0.0.0/16"
-public_subnet_count = 2              # between 1 and 3
-instance_type       = "t3.micro"
-allowed_http_cidrs  = ["0.0.0.0/0"]
